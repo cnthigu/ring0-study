@@ -30,12 +30,13 @@ Andrea Allievi, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsoft 
 
 ---
 
-## C Primer Plus - 6a Edicao
+## C++ Primer Plus - 6a Edicao
 
-Stephen Prata - Addison-Wesley, 2013
+Stephen Prata - Addison-Wesley, 2012 (ISBN 978-0-321-77640-2)
 
 | Versao | Link |
 |--------|------|
-| PDF (ingles) | [`c-primer-plus-6th-edition/pdf/`](./c-primer-plus-6th-edition/pdf/) |
+| PDF (ingles) | [`cpp-primer-plus-6th-edition/pdf/`](./cpp-primer-plus-6th-edition/pdf/) |
+| Traducao PT-BR com exemplos C++ | [`cpp-primer-plus-6th-edition/md-pt-br/`](./cpp-primer-plus-6th-edition/md-pt-br/) |
 
-> Traducao PT-BR: ainda nao disponivel.
+> Traducao completa dos 18 capitulos do livro, com exemplos de codigo C++ rodaveis no Visual Studio (ou compilaveis com `g++` / `clang++`) em cada capitulo. Como o livro e de 2011 e cobre C++11, a traducao adiciona blocos curtos "Em C++ moderno (17/20/23)" mostrando smart pointers, ranges, `std::optional`, regra dos 5, `std::format`, etc.
