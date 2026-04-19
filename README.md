@@ -1,4 +1,4 @@
-# cpp-cnt-study
+# ring0-study
 
 Repositório de estudos de C++. Tudo que uso para aprender fica aqui: livros, exercícios, snippets de referência, mini-projetos, anotações e ferramentas.
 
