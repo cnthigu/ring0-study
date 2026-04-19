@@ -14,3 +14,27 @@ Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsof
 | Traducao PT-BR com exemplos C++ | [`windows-internals-part1/md-pt-br/`](./windows-internals-part1/md-pt-br/) |
 
 > Traducao completa dos 7 capitulos do Part 1, com exemplos de codigo C++ rodaveis no Visual Studio em cada capitulo.
+
+---
+
+## Windows Internals, Part 2 - 7a Edicao
+
+Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsoft Press, 2017
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`windows-internals-part2/pdf/`](./windows-internals-part2/pdf/) |
+
+> Traducao PT-BR: ainda nao disponivel.
+
+---
+
+## C Primer Plus - 6a Edicao
+
+Stephen Prata - Addison-Wesley, 2013
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`C Primer Plus (6th Edition)/pdf/`](<./C Primer Plus (6th Edition)/pdf/>) |
+
+> Traducao PT-BR: ainda nao disponivel.
