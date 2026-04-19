@@ -36,6 +36,6 @@ Stephen Prata - Addison-Wesley, 2013
 
 | Versao | Link |
 |--------|------|
-| PDF (ingles) | [`C Primer Plus (6th Edition)/pdf/`](<./C Primer Plus (6th Edition)/pdf/>) |
+| PDF (ingles) | [`c-primer-plus-6th-edition/pdf/`](./c-primer-plus-6th-edition/pdf/) |
 
 > Traducao PT-BR: ainda nao disponivel.
