@@ -1,1 +1,16 @@
 # Livros
+
+Livros tecnicos em uso nos estudos. Cada livro tem sua propria pasta com o PDF original em ingles e, quando disponivel, uma traducao em portugues com exemplos de codigo C++.
+
+---
+
+## Windows Internals, Part 1 - 7a Edicao
+
+Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsoft Press, 2017
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`windows-internals-part1/pdf/`](./windows-internals-part1/pdf/) |
+| Traducao PT-BR com exemplos C++ | [`windows-internals-part1/md-pt-br/`](./windows-internals-part1/md-pt-br/) |
+
+> Traducao completa dos 7 capitulos do Part 1, com exemplos de codigo C++ rodaveis no Visual Studio em cada capitulo.
