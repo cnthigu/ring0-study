@@ -19,13 +19,14 @@ Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsof
 
 ## Windows Internals, Part 2 - 7a Edicao
 
-Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsoft Press, 2017
+Andrea Allievi, Alex Ionescu, Mark E. Russinovich, David A. Solomon - Microsoft Press, 2022
 
 | Versao | Link |
 |--------|------|
 | PDF (ingles) | [`windows-internals-part2/pdf/`](./windows-internals-part2/pdf/) |
+| Traducao PT-BR com exemplos C++ | [`windows-internals-part2/md-pt-br/`](./windows-internals-part2/md-pt-br/) |
 
-> Traducao PT-BR: ainda nao disponivel.
+> Traducao completa dos 5 capitulos do Part 2 (caps. 8 a 12), com exemplos de codigo C++ rodaveis no Visual Studio. Cobre mecanismos do sistema, virtualizacao (Hyper-V, VBS, Secure Kernel), gerenciamento e ETW, sistemas de arquivos (NTFS, ReFS) e o processo de boot.
 
 ---
 
