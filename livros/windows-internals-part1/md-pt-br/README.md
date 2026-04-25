@@ -36,6 +36,10 @@ Criterios de traducao:
 
 Esta traducao e feita para fins educacionais e de estudo pessoal. O conteudo original e copyright 2017 de Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich e David A. Solomon, publicado pela Microsoft Press. Para uso oficial ou comercial, adquira o livro original.
 
+## Notas de estudo neste repositório
+
+Há anotações em português e tabela *livro ↔ tópico* em [anotacoes/Windows-Internals/README.md](../../../anotacoes/Windows-Internals/README.md) (mesmo repositório `cpp-cnt-study`).
+
 ## Recursos relacionados
 
 - [Livro original (Microsoft Press)](https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188)
