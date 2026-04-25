@@ -40,6 +40,7 @@ Setup do ambiente de estudo para C++ e Windows Internals.
 
 | Ferramenta | Descricao | Link |
 |------------|-----------|------|
+| Dependency Walker | Cadeia de modulos, imports e exports de EXE/DLL (ferramenta classica) | [README e uso no repo](./Dependency-Walker/README.md) |
 | PE-bear | Visualizador de arquivos PE (EXE, DLL, SYS) | [download](https://github.com/hasherezade/pe-bear) |
 | CFF Explorer | Editor e visualizador de PE | [download](https://ntcore.com/explorer-suite/) |
 | DIE (Detect It Easy) | Identificador de packers e compiladores | [download](https://github.com/horsicq/Detect-It-Easy) |
