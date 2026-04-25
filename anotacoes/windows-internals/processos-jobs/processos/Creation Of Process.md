@@ -11,7 +11,7 @@ Observação: todas as referências, créditos e códigos serão citados neste a
 
 <a name="process-creation-via-c"></a>
 # Criação de processo com C++
-Há um artigo com uma visão geral de como um processo é criado no Windows; você pode ler **[aqui](./Overview%20of%20process%20creation.md)**. Ali tentei explicar a visão geral de toda a criação de processo (sem trocadilho). Vamos aprofundar. Abaixo há um C++ simples que inicia o processo **notepad.exe**. (O código está em **[`Create_Process.cpp`](../../codes/Processes%20and%20Jobs/Create_Process.cpp)**)
+Há um artigo com uma visão geral de como um processo é criado no Windows; você pode ler **[aqui](./Overview%20of%20process%20creation.md)**. Ali tentei explicar a visão geral de toda a criação de processo (sem trocadilho). Vamos aprofundar. Abaixo há um C++ simples que inicia o processo **notepad.exe**. (O código está em **[`Create_Process.cpp`](../../codes/processos-jobs/Create_Process.cpp)**)
 ```CPP
 #include <windows.h>
 #include <iostream>

@@ -1,12 +1,12 @@
 # Anotacoes e referencias
 
-Esta pasta reune **links e notas** para estudo. O texto proprio (por exemplo, [Windows-Internals](Windows-Internals/)) e material do autor deste repositorio. Use tudo de forma **educacional e etica**: so em sistemas e redes que te pertencam ou para as quais tenhas autorizacao expressa. Links sobre tecnicas ofensivas ou exploracao sao **contexto tecnico**; nao guias para actividade ilicita.
+Esta pasta reune **links e notas** para estudo. O texto proprio (por exemplo, [windows-internals](windows-internals/)) e material do autor deste repositorio. Use tudo de forma **educacional e etica**: so em sistemas e redes que te pertencam ou para as quais tenhas autorizacao expressa. Links sobre tecnicas ofensivas ou exploracao sao **contexto tecnico**; nao guias para actividade ilicita.
 
 ---
 
 ## Windows Internals (estudo)
 
-- [Indice e artigos em portugues](./Windows-Internals/)
+- [Indice e artigos em portugues](./windows-internals/)
 
 ## C++ / WinAPI
 

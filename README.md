@@ -15,12 +15,12 @@ Fique a vontade para usar como referencia; sugestoes sao bem-vindas (por exemplo
 | [`projetos/`](./projetos/) | Mini-projetos  |
 | [`ferramentas/`](./ferramentas/) | WinDbg, Visual Studio, drivers |
 | [`videos/`](./videos/) | Lista de videos e playlists |
-| [`anotacoes/`](./anotacoes/) | Notas e links; nucleo no Windows: [`Windows-Internals/`](./anotacoes/Windows-Internals/)|
+| [`anotacoes/`](./anotacoes/) | Notas e links; nucleo no Windows: [`windows-internals/`](./anotacoes/windows-internals/) |
 
 ---
 
 **Um livro de apoio ao nucleo Windows:** [Windows Internals (Microsoft Learn)](https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals)
 
-(artigos longos): [`anotacoes/Windows-Internals/`](./anotacoes/Windows-Internals/).
+(artigos longos): [`anotacoes/windows-internals/`](./anotacoes/windows-internals/).
 
 ---

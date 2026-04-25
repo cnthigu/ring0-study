@@ -38,7 +38,7 @@ Esta traducao e feita para fins educacionais e de estudo pessoal. O conteudo ori
 
 ## Notas de estudo neste repositório
 
-Há anotações em português e tabela *livro ↔ tópico* em [anotacoes/Windows-Internals/README.md](../../../anotacoes/Windows-Internals/README.md) (mesmo repositório `cpp-cnt-study`).
+Há anotações em português e tabela *livro ↔ tópico* em [anotacoes/windows-internals/README.md](../../../anotacoes/windows-internals/README.md) (mesmo repositório `cpp-cnt-study`).
 
 ## Recursos relacionados
 

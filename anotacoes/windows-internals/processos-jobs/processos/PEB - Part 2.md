@@ -355,7 +355,7 @@ Aqui o endereço base de NTDLL. Dá para continuar andando de trás para frente 
 Em vez de calcular tudo à mão, o código C++ a seguir obtém a base de todas as DLLs. Primeiro, diagrama geral do PEB/LDR.
 ![Diagrama PEB e listas LDR](../../_img/gh-5d5be64a-9b53-41e7-93ec-a78a5b24ef4f.png)
 
-O código completo está em **[`PEB_walker.cpp`](../../codes/Processes%20and%20Jobs/PEB_walker.cpp)**.\
+O código completo está em **[`PEB_walker.cpp`](../../codes/processos-jobs/PEB_walker.cpp)**.\
 ![Includes e início do código](../../_img/gh-95d7fa40-6630-412c-ba52-97ebf89172b8.png)\
 Com os headers necessários. Em vez da struct PEB mínima da MSDN, veja **[PEB](https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb)** e **[PEB_LDR_DATA](https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb_ldr_data)**; usamos versões adaptadas para este uso (referência **[Sandsprite - PEB loader list](http://sandsprite.com/CodeStuff/Understanding_the_Peb_Loader_Data_List.html)**).
 ![Definições de structs customizadas](../../_img/gh-e73d373f-e914-4092-96de-fd6fc3de17cf.png)\

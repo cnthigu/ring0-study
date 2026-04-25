@@ -1,6 +1,6 @@
 Nesta seção, vemos como processos e jobs funcionam no Windows.
 
-**Livro:** [capítulo 3 – processos e jobs](../../../livros/windows-internals-part1/md-pt-br/capitulo-03.md). O índice detalhado das anotações de processo está em [Processes/Readme.md](./Processes/Readme.md). Códigos em [`../codes/Processes%20and%20Jobs/`](../codes/Processes%20and%20Jobs/).
+**Livro:** [capítulo 3 – processos e jobs](../../../livros/windows-internals-part1/md-pt-br/capitulo-03.md). O índice detalhado das anotações de processo está em [processos/Readme.md](./processos/Readme.md). Códigos em [`../codes/processos-jobs/`](../codes/processos-jobs/).
 
 ## Processo
 

@@ -2,6 +2,8 @@
 
 Anotações pessoais de estudo sobre Windows Internals e APIs Win32. Figuras de apoio ficam em [`_img/`](./_img/) (caminhos relativos nos artigos).
 
+**Convenção de pastas (repo `cpp-cnt-study`):** nomes em **kebab-case**, minúsculas, sem espaços: `windows-internals`, `intro`, `arquitetura-sistema`, `processos-jobs`, `processos` (artigos), `threads`, `codes/processos-jobs`, `source-codes` (apontadores a trechos no Visual Studio). Os ficheiros `.md` dos artigos mantêm os títulos originais (às vezes com espaços).
+
 **Nota:** estes tópicos não cobrem 100% do livro Windows Internals nem do material oficial da Microsoft.
 
 ## Livro em português (mesmo repositório)
@@ -10,11 +12,11 @@ A tradução em Markdown fica em [`livros/windows-internals-part1/md-pt-br/`](..
 
 | Ordem | Capítulo (PT-BR) | Foco e anotações locais |
 | --- | --- | --- |
-| 0 | [Introdução do livro](../../livros/windows-internals-part1/md-pt-br/introducao.md) | Panorama; depois alinhe com a pasta [Introduction](./Introduction/) |
-| 1 | [Capítulo 1 – Conceitos e ferramentas](../../livros/windows-internals-part1/md-pt-br/capitulo-01.md) | [Introduction](./Introduction/) (inclui [Dependency Walker](./Introduction/Dependency%20Walker.md)) |
-| 2 | [Capítulo 2 – Arquitetura do sistema](../../livros/windows-internals-part1/md-pt-br/capitulo-02.md) | [System Service Descriptor Table (SSDT)](./System%20Architecture%20and%20Components/System%20Service%20Descriptor%20Table.md) |
-| 3 | [Capítulo 3 – Processos e jobs](../../livros/windows-internals-part1/md-pt-br/capitulo-03.md) | [Processos e jobs](./Processes%20and%20Jobs/): [índice de processos](./Processes%20and%20Jobs/Processes/Readme.md) |
-| 4 | [Capítulo 4 – Threads](../../livros/windows-internals-part1/md-pt-br/capitulo-04.md) | [Threads](./Threads/): [noções básicas](./Threads/1.%20Basics%20Of%20Threads.md) |
+| 0 | [Introdução do livro](../../livros/windows-internals-part1/md-pt-br/introducao.md) | Panorama; depois alinhe com a pasta [intro](./intro/) |
+| 1 | [Capítulo 1 – Conceitos e ferramentas](../../livros/windows-internals-part1/md-pt-br/capitulo-01.md) | [intro](./intro/) (inclui [Dependency Walker](./intro/Dependency%20Walker.md)) |
+| 2 | [Capítulo 2 – Arquitetura do sistema](../../livros/windows-internals-part1/md-pt-br/capitulo-02.md) | [System Service Descriptor Table (SSDT)](./arquitetura-sistema/System%20Service%20Descriptor%20Table.md) |
+| 3 | [Capítulo 3 – Processos e jobs](../../livros/windows-internals-part1/md-pt-br/capitulo-03.md) | [Processos e jobs](./processos-jobs/): [índice de processos](./processos-jobs/processos/Readme.md) |
+| 4 | [Capítulo 4 – Threads](../../livros/windows-internals-part1/md-pt-br/capitulo-04.md) | [threads](./threads/): [noções básicas](./threads/1.%20Basics%20Of%20Threads.md) |
 | 5–7 | [Cap. 5 – Memória](../../livros/windows-internals-part1/md-pt-br/capitulo-05.md), [Cap. 6 – I/O](../../livros/windows-internals-part1/md-pt-br/capitulo-06.md), [Cap. 7 – Segurança](../../livros/windows-internals-part1/md-pt-br/capitulo-07.md) | Ainda sem pasta dedicada aqui: leia o `.md` do livro e, quando criar anotações, encaixe na tabela acima. |
 
 **Códigos de apoio:** experimentos e snippets alinhados aos textos estão em [`codes/`](./codes/).
@@ -30,11 +32,11 @@ Essa ordem evita pular base (conceitos, ferramentas) antes de arquitetura, proce
 
 ## Índice das pastas
 
-1. [Introdução](./Introduction/)
-2. [Arquitetura e componentes do sistema](./System%20Architecture%20and%20Components/)
-3. [Processos e jobs](./Processes%20and%20Jobs/)
-4. [Códigos](./codes/)
-5. [Threads](./Threads/)
+1. [intro](./intro/) (ferramentas, Dependency Walker, alinhado ao cap. 1)
+2. [arquitetura-sistema](./arquitetura-sistema/) (ex.: SSDT, cap. 2)
+3. [processos-jobs](./processos-jobs/)
+4. [codes](./codes/) (C++ alinhado aos artigos)
+5. [threads](./threads/)
 
 ## Recursos oficiais (fora do repositório)
 
