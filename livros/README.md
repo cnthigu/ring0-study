@@ -40,3 +40,16 @@ Stephen Prata - Addison-Wesley, 2012 (ISBN 978-0-321-77640-2)
 | Traducao PT-BR com exemplos C++ | [`cpp-primer-plus-6th-edition/md-pt-br/`](./cpp-primer-plus-6th-edition/md-pt-br/) |
 
 > Traducao completa dos 18 capitulos do livro, com exemplos de codigo C++ rodaveis no Visual Studio (ou compilaveis com `g++` / `clang++`) em cada capitulo. Como o livro e de 2011 e cobre C++11, a traducao adiciona blocos curtos "Em C++ moderno (17/20/23)" mostrando smart pointers, ranges, `std::optional`, regra dos 5, `std::format`, etc.
+
+---
+
+## Game Hacking: Developing Autonomous Bots for Online Games
+
+Nick Cano - No Starch Press, 2016 (ISBN 978-1-59327-669-0)
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/Game-Hacking.pdf`](./Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/Game-Hacking.pdf) |
+| Traducao PT-BR em Markdown | [`Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/md-pt-br/`](./Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/md-pt-br/) |
+
+> Traducao completa em PT-BR organizada em `README`, prefacio, agradecimentos, introducao e 12 capitulos em `.md`, com topicos por capitulo para estudo guiado.
