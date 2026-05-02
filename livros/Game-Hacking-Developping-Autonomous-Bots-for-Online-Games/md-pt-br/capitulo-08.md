@@ -665,6 +665,9 @@ substituiu e pula de volta. A Figura 8-1 ilustra.
 > `PUSHFD`, `PUSHAD`, `CALL callback`, `POPAD`, `POPFD`, restauro
 > das instrucoes substituidas e `JMP restore`) e callback.
 
+![Figura 8-1: jump hook: codigo original, hooked, trampoline e callback.](imagens/figure-08-01.png)
+
+
 O codigo original mostra um trecho que voce poderia encontrar num
 game; o hooked code mostra o trecho hookado por jump hook. Em
 seguida o trampoline (assembly) e o callback (codigo que voce quer

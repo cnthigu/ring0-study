@@ -55,6 +55,9 @@ Monitor, o primeiro dialog e o Process Monitor Filter (Figura 3-1).
 
 > Figura 3-1: dialog Process Monitor Filter.
 
+![Figura 3-1: dialog Process Monitor Filter.](imagens/figure-03-01.png)
+
+
 Esse dialog deixa voce mostrar ou suprimir eventos com base em varias
 propriedades dinamicas. Para comecar a monitorar, escolha
 **Process Name > Is > YourGameFilename.exe > Include**, depois
@@ -63,6 +66,9 @@ mostrar eventos invocados por `YourGameFilename.exe`. Com os filtros
 configurados, voce vai para a janela principal (Figura 3-2).
 
 > Figura 3-2: janela principal do Process Monitor.
+
+![Figura 3-2: janela principal do Process Monitor.](imagens/figure-03-02.png)
+
 
 Para configurar as colunas exibidas no log, clique direito no header
 e escolha **Select Columns**. Sao muitas opcoes, mas para games sete
@@ -193,6 +199,9 @@ evento ou `Ctrl-P`), como na Figura 3-3.
 > Elementos numerados: (1) Frame, (2) Module, (3) Location,
 > (4) Address, (5) Path.
 
+![Figura 3-3: call stack de evento do Process Monitor.](imagens/figure-03-03.png)
+
+
 A stack trace e uma tabela. A coluna Frame (1) mostra o execution
 mode e o indice do stack frame. Um `K` rosa significa kernel mode;
 um `U` azul, user mode. Como game hackers tipicamente trabalham em
@@ -274,6 +283,9 @@ distintas (Figura 3-4).
 > Elementos numerados: (1) toolbar, (2) painel superior,
 > (3) painel inferior.
 
+![Figura 3-4: janela principal do Process Explorer.](imagens/figure-03-04.png)
+
+
 As tres secoes sao a toolbar (1), o painel superior (2) e o painel
 inferior (3). O painel superior mostra a lista de processos em
 estrutura de arvore com relacao parent/child. Processos diferentes
@@ -325,6 +337,9 @@ informacoes. De fato, ao abrir o Properties (Figura 3-5) de um
 processo, voce ve uma tab bar gigante com 10 abas.
 
 > Figura 3-5: dialog Properties do Process Explorer.
+
+![Figura 3-5: dialog Properties do Process Explorer.](imagens/figure-03-05.png)
+
 
 A aba **Image**, selecionada por padrao, mostra o nome do
 executavel, versao, build date e path completo. Tambem mostra o

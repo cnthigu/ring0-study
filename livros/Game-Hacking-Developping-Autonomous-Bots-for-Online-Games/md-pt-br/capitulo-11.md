@@ -43,6 +43,9 @@ acao, todo o processo (*feedback loop*) se repete (Figura 11-1):
 
 > Figura 11-1: feedback loop de control theory.
 
+![Figura 11-1: feedback loop de control theory.](imagens/figure-11-01.png)
+
+
 Aplicando ao game hacking: para automatizar a gameplay (o
 sistema), o bot implementa algoritmos (controller) que sabem jogar
 em qualquer estado observado por memory reads, network hooks etc.
@@ -79,6 +82,9 @@ S1 e S2 se repetem ao ver `1` e se trocam ao ver `0`. Para
 ```
 
 > Figura 11-2: state machine simples.
+
+![Figura 11-2: state machine simples.](imagens/figure-11-02.png)
+
 
 Com um pequeno twist na teoria classica, da para usar uma state
 machine como controller num feedback loop. Essa versao e uma
@@ -247,6 +253,10 @@ while (true) {
 ```
 
 > Listagem 11-3: state machine de healer + feedback loop.
+
+> Figura 11-3: fluxo do exemplo de healing com strong/weak heal.
+
+![Figura 11-3: fluxo do exemplo de healing com strong/weak heal.](imagens/figure-11-03.png)
 
 O `Sleep()` permite que o server processe a atuacao anterior e o
 client receba o resultado antes da proxima iteracao.
@@ -417,13 +427,21 @@ calcula um path. Cria um node em *a*, adiciona vizinhos numa lista
 repete ate chegar em *b*. A escolha do "melhor" varia: pode ser
 *cost*, *heuristic* ou ambos.
 
+> Figura 11-4: expansion da frontier tipo Dijkstra num grid sem obstaculos.
+
+![Figura 11-4: expansion da frontier tipo Dijkstra num grid sem obstaculos.](imagens/figure-11-04.png)
+
 **Dijkstra** calcula o cost pela distancia ate *a* e escolhe o
 menor. Num grid 2D vazio com *a* no centro, a frontier expande
-em circulo (Figura 11-4) ate *b* cair na borda.
+em circulo ate *b* cair na borda.
 
 **Greedy best-first** usa heuristic para estimar a distancia de
 um node ate *b* e escolhe o de menor estimativa. A frontier vira
-quase uma linha de *a* a *b* (Figura 11-5).
+quase uma linha de *a* a *b*.
+
+> Figura 11-5: frontier do greedy best-first (linha quase-reta).
+
+![Figura 11-5: frontier do greedy best-first (linha quase-reta).](imagens/figure-11-05.png)
 
 ### Como obstaculos atrapalham
 

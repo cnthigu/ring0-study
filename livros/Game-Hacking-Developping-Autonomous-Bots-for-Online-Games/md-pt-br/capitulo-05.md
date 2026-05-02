@@ -121,11 +121,17 @@ janela References (Figura 5-1).
 > Figura 5-1: References window do OllyDbg mostrando uma lista de
 > strings. Em um game real, teria muito mais.
 
+![Figura 5-1: References window do OllyDbg (lista de strings; em game real haveria bem mais linhas).](imagens/figure-05-01.png)
+
+
 Clique direito e escolha **Search for text**. Digite a string que
 voce procura (Figura 5-2), desabilite **Case sensitive** e habilite
 **Entire scope** para deixar amplo.
 
 > Figura 5-2: pesquisando strings no OllyDbg.
+
+![Figura 5-2: pesquisando strings no OllyDbg.](imagens/figure-05-02.png)
+
 
 Clique OK. A janela References volta ao foco com o primeiro match
 em destaque. Duplo clique no match para ver o assembly que usa a
@@ -135,6 +141,9 @@ Figura 5-3.
 
 > Figura 5-3: visualizando a chamada de `printString()` na CPU
 > window. Numerados (1) `EAX`, (2) `ECX`, (3) format string.
+
+![Figura 5-3: visualizando a chamada de `printString()` na CPU](imagens/figure-05-03.png)
+
 
 Lendo o assembly, voce entende exatamente o que o game faz. A chave
 preta a esquerda mostra que a string `Health` esta dentro de uma
@@ -226,6 +235,9 @@ a versao anterior a direita. Tirei de um game real (sem nome) para
 um exemplo realista.
 
 > Figura 5-4: disassemblies side-by-side de duas versoes de um game.
+
+![Figura 5-4: disassemblies side-by-side de duas versoes de um game.](imagens/figure-05-04.png)
+
 
 Meu bot modificava o codigo em `0x047B542` (direita), e eu
 precisava do correspondente na nova versao, que descobri em
@@ -586,6 +598,9 @@ para o primeiro (`root->next`) e o ultimo (`root->prev`).
 
 > Figura 5-5: fluxograma de um `std::list`.
 
+![Figura 5-5: fluxograma de um `std::list`.](imagens/figure-05-05.png)
+
+
 Iterando:
 
 ```cpp
@@ -735,6 +750,9 @@ A Figura 5-6 mostra um `std::map` com keys 1, 6, 8, 11, 13, 15, 17,
 22, 25 e 27.
 
 > Figura 5-6: red-black tree.
+
+![Figura 5-6: red-black tree.](imagens/figure-05-06.png)
+
 
 O top node (valor 13) e apontado pelo `parent` do `rootNode`. Tudo
 a esquerda tem key menor, tudo a direita tem key maior. Vale para

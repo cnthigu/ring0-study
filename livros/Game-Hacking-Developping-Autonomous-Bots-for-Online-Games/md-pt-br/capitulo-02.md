@@ -59,6 +59,9 @@ acima de uma area de janelas multiplas.
 > Elementos numerados: (1) controles do programa, (2) botoes de debug,
 > (3) botao Go to, (4) botoes das control windows, (5) botao Settings.
 
+![Figura 2-1: janela principal do OllyDbg.](imagens/figure-02-01.png)
+
+
 Essa toolbar contem os controles do programa (1), os debug buttons
 (2), o botao Go to (3), os botoes das control windows (4) e o botao
 Settings (5).
@@ -138,6 +141,9 @@ funcionalidades de debug.
 > Figura 2-2: CPU window do OllyDbg.
 > Elementos numerados: (1) disassembler pane, (2) registers pane,
 > (3) dump pane, (4) stack pane.
+
+![Figura 2-2: CPU window do OllyDbg.](imagens/figure-02-02.png)
+
 
 A janela tem quatro paineis: disassembler pane (1), registers pane
 (2), dump pane (3) e stack pane (4). Esses quatro paineis encapsulam
@@ -321,6 +327,9 @@ prompt e clique em **Assemble**, como na Figura 2-3.
 
 > Figura 2-3: aplicando um patch no OllyDbg.
 
+![Figura 2-3: aplicando um patch no OllyDbg.](imagens/figure-02-03.png)
+
+
 Sempre preste atencao no tamanho do patch: nao da para redimensionar
 e mover codigo assembly como bem entender. Patches maiores que o
 codigo a substituir vao transbordar para operacoes seguintes,
@@ -380,6 +389,9 @@ o trace termina, os dados aparecem na janela Run trace, mostrada na
 Figura 2-4.
 
 > Figura 2-4: janela Run trace.
+
+![Figura 2-4: janela Run trace.](imagens/figure-02-04.png)
+
 
 A Run trace tem seis colunas:
 
@@ -718,6 +730,10 @@ duzia de calls a `USER32.PeekMessage()`, so duas estavam disparando.
 E melhor ainda: estavam vizinhas em um loop incondicional. No fim do
 loop, varias internal function calls. Cara de main game loop.
 
+> Figura 2-5: janela Found intermodular calls do OllyDbg.
+
+![Figura 2-5: janela Found intermodular calls do OllyDbg.](imagens/figure-02-05.png)
+
 #### Ativando o trace
 
 Para finalmente armar o trace, removi todos os breakpoints anteriores
@@ -728,6 +744,9 @@ dialog **Condition to pause run trace** (Figura 2-6). Ali, ativei
 CPU window e apertei `Ctrl-F11` para iniciar a Trace Into.
 
 > Figura 2-6: dialog "Condition to pause run trace".
+
+![Figura 2-6: dialog "Condition to pause run trace".](imagens/figure-02-06.png)
+
 
 Quando o trace comecou, o game ficou tao lento que era quase
 injogavel. Para reduzir a health do meu test character, abri uma
@@ -807,6 +826,9 @@ precisa do Cheat Engine completo. Apos instalar, abra com
 
 > Figura 2-7: interface do Cheat Utility.
 
+![Figura 2-7: interface do Cheat Utility.](imagens/figure-02-07.png)
+
+
 UI e operacao do Cheat Utility imitam o Cheat Engine, entao se
 precisar relembrar consulte o Capitulo 1.
 
@@ -824,6 +846,9 @@ Command line**. A janela (Figura 2-8) age como CLI.
 > Figura 2-8: command line do OllyDbg.
 > Elementos numerados: (1) caixa de input, (2) historico de comandos
 > da sessao, (3) label inferior com o valor de retorno do comando.
+
+![Figura 2-8: command line do OllyDbg.](imagens/figure-02-08.png)
+
 
 Para executar um comando, digite na caixa (1) e aperte `Enter`. Voce
 ve o historico no centro (2), e o label inferior exibe o valor de
@@ -860,6 +885,9 @@ puramente visual que gera grafos de codigo, como na Figura 2-9, e
 exibe usando o Wingraph32.
 
 > Figura 2-9: function flowchart do OllyFlow.
+
+![Figura 2-9: function flowchart do OllyFlow.](imagens/figure-02-09.png)
+
 
 > NOTA: o Wingraph32 nao vem com o OllyFlow, mas esta disponivel na
 > versao gratuita do IDA: <https://www.hex-rays.com/products/ida/>.

@@ -109,6 +109,9 @@ baixos ocupados por ele. A Figura 4-1 mostra que o `DWORD`
 
 > Figura 4-1: diagrama de ordenacao little-endian.
 
+![Figura 4-1: diagrama de ordenacao little-endian.](imagens/figure-04-01.png)
+
+
 O tipo `float` armazena numeros mistos, entao a representacao em
 memoria nao e tao simples. Se voce ve `0x0D 0x0C 0x0B 0x0A` em
 memoria e o valor e um `float`, nao da para simplesmente converter
@@ -146,6 +149,9 @@ o memory dump da Figura 4-2, supondo que as variaveis estao em
 escopo global.
 
 > Figura 4-2: memory dump no OllyDbg dos dados numericos.
+
+![Figura 4-2: memory dump no OllyDbg dos dados numericos.](imagens/figure-04-02.png)
+
 
 Voce talvez note que alguns valores parecem espacados de maneira
 arbitraria. Como o processador acessa muito mais rapido valores em
@@ -209,6 +215,9 @@ memoria dessas variaveis.
 > Figura 4-3: memory dump do OllyDbg dos dados de string. Texto
 > legivel na coluna ASCII bate com o que armazenamos na Listagem 4-2.
 > Painel (1) e (2).
+
+![Figura 4-3: memory dump do OllyDbg dos dados de string (texto ASCII e paineis conforme texto).](imagens/figure-04-03.png)
+
 
 A Tabela 4-3 detalha o crosswalk entre Listagem 4-2 e Figura 4-3.
 
@@ -527,6 +536,9 @@ foob _foob = foob();
 > Figura 4-4: memory dump dos dados das classes.
 > Painel (1) e (2).
 
+![Figura 4-4: memory dump dos dados das classes.](imagens/figure-04-04.png)
+
+
 O painel 1 mostra que cada instance armazena seus membros igual a
 uma struct, mas precedidos por um `DWORD` que aponta para a VF table
 da classe. O painel 2 mostra as VF tables das tres instancias. A
@@ -771,6 +783,9 @@ Figura 4-5 mostra os subregistradores.
 
 > Figura 4-5: registradores e subregistradores x86.
 
+![Figura 4-5: registradores e subregistradores x86.](imagens/figure-04-05.png)
+
+
 `EAX`, `EBX`, `ECX` e `EDX` tambem tem higher words, mas o
 compilador raramente acessa, ja que pode usar a lower word quando
 precisa apenas de armazenamento word.
@@ -921,6 +936,9 @@ registrador). A Figura 4-6 ilustra.
 
 > Figura 4-6: estrutura de uma stack.
 
+![Figura 4-6: estrutura de uma stack.](imagens/figure-04-06.png)
+
+
 No Windows, a stack cresce de enderecos altos para baixos. Ela
 ocupa um bloco finito de memoria, empilhando ate `0x00000000` (topo
 absoluto) a partir de `n` (fundo absoluto). Ou seja, `ESP` (ponteiro
@@ -937,6 +955,9 @@ locais.
 
 > Figura 4-7: stack inicial de exemplo (ler de baixo para cima).
 
+![Figura 4-7: stack inicial de exemplo (ler de baixo para cima).](imagens/figure-04-07.png)
+
+
 `0x0000` e o topo absoluto. Memoria livre de `0x0000` ate
 `0xFF00 - 4`, e no momento da call, `0xFF00` e o topo da stack
 (`ESP` aponta ai). Memoria de `0xFF00` ate `0xFFFF` esta em uso por
@@ -951,6 +972,9 @@ SUB ESP, 0x0C   ; abre 0x0C bytes; topo do frame atual
 Apos isso, a stack se parece com a Figura 4-8.
 
 > Figura 4-8: stack apos montar o stack frame.
+
+![Figura 4-8: stack apos montar o stack frame.](imagens/figure-04-08.png)
+
 
 Com a stack assim, a funcao usa os locais como quiser. Se ela chama
 outra funcao, esta monta o proprio stack frame (eles literalmente

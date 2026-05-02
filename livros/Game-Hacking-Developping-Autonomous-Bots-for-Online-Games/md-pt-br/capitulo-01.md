@@ -111,6 +111,9 @@ encapsulado na janela principal, semelhante a Figura 1-1.
 > (3) campo Scan Value, (4) Scan Type, (5) Value Type, (6) lista de
 > resultados.
 
+![Figura 1-1: tela principal do Cheat Engine.](imagens/figure-01-01.png)
+
+
 Para comecar a escanear a memoria de um jogo, clique no icone Attach (1)
 para anexar a um processo e digite o scan value (referido como `x` no
 nosso scanner conceitual) que voce quer localizar (3). Anexar a um
@@ -275,6 +278,9 @@ Trainer generator semelhante a Figura 1-2.
 
 > Figura 1-2: caixa de dialogo do Trainer generator do Cheat Engine.
 
+![Figura 1-2: caixa de dialogo do Trainer generator do Cheat Engine.](imagens/figure-01-02.png)
+
+
 Os campos a configurar sao:
 
 - **Processname**: nome do executavel ao qual o trainer deve se
@@ -301,6 +307,9 @@ escolher um valor da sua cheat table. Apos escolher, vai para uma tela
 > Elementos numerados: (1) caixa para digitar a hotkey,
 > (2) drop-down com a acao, (3) caixa de valor associado a acao,
 > (4) descricao da acao.
+
+![Figura 1-3: tela Set/Change hotkey do Cheat Engine.](imagens/figure-01-03.png)
+
 
 Nesta tela, posicione o cursor na caixa rotulada **Type the keys you
 want to set the hotkey to** (1) e digite a combinacao desejada. Em
@@ -517,6 +526,9 @@ uma caixa **Pointerscanner scanoptions** semelhante a Figura 1-4.
 > Figura 1-4: caixa de dialogo Pointerscanner scanoptions do Cheat
 > Engine.
 
+![Figura 1-4: caixa de dialogo Pointerscanner scanoptions do Cheat Engine.](imagens/figure-01-04.png)
+
+
 O campo **Address to find** no topo exibe o seu endereco de memoria
 dinamica. A partir dai, escolha com cuidado entre as varias opcoes de
 scan do Cheat Engine.
@@ -632,6 +644,9 @@ Figura 1-5.
 > Figura 1-5: caixa de dialogo Rescan pointerlist do Cheat Engine.
 > Elementos numerados: (1) checkbox Only filter out invalid pointers,
 > (2) checkbox Repeat rescan until stopped.
+
+![Figura 1-5: caixa de dialogo Rescan pointerlist do Cheat Engine.](imagens/figure-01-05.png)
+
 
 Existem duas opcoes principais:
 

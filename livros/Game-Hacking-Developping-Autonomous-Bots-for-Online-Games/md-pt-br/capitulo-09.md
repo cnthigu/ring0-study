@@ -157,7 +157,11 @@ o (x, y) ja esta preenchido, comparam-se os z's: o novo so entra
 se tem z menor. Quando termina, o array e flushado para a tela.
 
 Imagine um espaco 3D rendered em viewport 4x4 pixels. O z-buffer
-inicia vazio (Figura 9-1: 16 celulas, todas `z = 0`, sem cor).
+inicia vazio.
+
+> Figura 9-1: z-buffer inicial 4x4: 16 celulas, todas `z = 0`, sem cor.
+
+![Figura 9-1: z-buffer inicial 4x4: 16 celulas, todas `z = 0`, sem cor.](imagens/figure-09-01.png)
 
 Apos o game desenhar:
 
@@ -165,8 +169,12 @@ Apos o game desenhar:
 - Retangulo vermelho 2x2 em (0,0), z = 5.
 - Retangulo verde 2x2 em (1,1), z = 3.
 
-A Figura 9-2 mostra o z-buffer final: o verde (z = 3) sobrepoe
-parte do vermelho (z = 5), que sobrepoe parte do azul (z = 100).
+> Figura 9-2: z-buffer final na viewport de exemplo.
+
+![Figura 9-2: z-buffer final na viewport de exemplo.](imagens/figure-09-02.png)
+
+Na figura anterior, o verde (z = 3) sobrepoe parte do vermelho
+(z = 5), que sobrepoe parte do azul (z = 100).
 
 Esse comportamento permite que o game desenhe map, players,
 criaturas, detalhes e particulas sem se preocupar com o que e

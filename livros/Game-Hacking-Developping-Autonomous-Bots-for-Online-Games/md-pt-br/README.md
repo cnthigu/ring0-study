@@ -14,6 +14,7 @@ Criterios de traducao:
 - APIs, bibliotecas, funcoes e nomes tecnicos mantidos em ingles
 - Codigo e identificadores preservados no formato original
 - Estrutura em topicos para facilitar estudo incremental
+- Screenshots das figuras do livro ficam em [imagens/](imagens/), referenciadas no markdown
 
 ## Indice
 

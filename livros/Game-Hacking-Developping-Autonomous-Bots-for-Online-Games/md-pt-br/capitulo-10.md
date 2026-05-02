@@ -239,6 +239,10 @@ parser. Em vista de arvore (Figura 10-1):
         0x40.. -> network->getPacket()
 ```
 
+> Figura 10-1: tree view das tres call stacks.
+
+![Figura 10-1: tree view das tres call stacks.](imagens/figure-10-01.png)
+
 > NOTA: na pratica, as stacks tem mais funcoes; comparar nao e
 > tao limpo.
 
@@ -285,6 +289,13 @@ handlers, mas nao na do `recv()`. Tabela 10-2:
 Os tres tem os mesmos quatro enderecos no fundo, mas so os dois
 handlers tem mais um em comum: `0x00ABCDEF`, o
 `dispatchPacket()`.
+
+Em vista de arvore, fica como na segunda figura (mesmo formato que
+Figura 10-1, mas com esse layout de stacks):
+
+> Figura 10-2: tree view das tres call stacks (variante apos dispatch).
+
+![Figura 10-2: tree view das tres call stacks (variante apos dispatch).](imagens/figure-10-02.png)
 
 #### Hack do parser
 
@@ -513,8 +524,7 @@ cast, etc., o breakpoint dispara. Anote a call stack.
 > voce fez antes de cada disparo: ajuda a deduzir o que cada call
 > esta comunicando, e qual actor voce achou.
 
-Comparando varias call stacks, descubra os actors. Figura 10-3
-(arvore das duas stacks):
+Comparando varias call stacks, descubra os actors:
 
 ```text
         0x10101010 -> main()
@@ -533,6 +543,10 @@ Comparando varias call stacks, descubra os actors. Figura 10-3
                  |
           0x50505050 -> network->send()
 ```
+
+> Figura 10-3: tree view das call stacks ate `send()`.
+
+![Figura 10-3: tree view das call stacks ate `send()`.](imagens/figure-10-03.png)
 
 As stacks devem ser identicas no topo (camadas genericas de
 network) e no fundo (origem comum em `processInput()`). No meio,
