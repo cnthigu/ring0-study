@@ -1,3 +1,7 @@
+# Python artefactos locais
+**/__pycache__/
+*.py[cod]
+
 _contexto/
 blog/
 twitter/
