@@ -32,3 +32,9 @@ Esta pasta reune **links e notas** para estudo. O texto proprio (por exemplo, [w
 |------|--------|------|
 | site | Tutoriais de engenharia reversa - Fergonez | [link](https://www.fergonez.net/engrev) |
 | repositorio | CEB - Curso de Exploracao de Binarios | [link](https://github.com/mentebinaria/ceb) |
+
+## Game hacking
+
+| Tipo | Titulo | Link |
+|------|--------|------|
+| artigo + resumo | Como comecar (UnknownCheats) | [game-hacking-iniciante.md](./game-hacking-iniciante.md) |
