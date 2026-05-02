@@ -49,7 +49,21 @@ Nick Cano - No Starch Press, 2016 (ISBN 978-1-59327-669-0)
 
 | Versao | Link |
 |--------|------|
-| PDF (ingles) | [`Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/Game-Hacking.pdf`](./Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/Game-Hacking.pdf) |
+| PDF (ingles) | [`Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/pdf/Game-Hacking.pdf`](./Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/pdf/Game-Hacking.pdf) |
 | Traducao PT-BR em Markdown | [`Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/md-pt-br/`](./Game-Hacking-Developping-Autonomous-Bots-for-Online-Games/md-pt-br/) |
 
 > Traducao completa em PT-BR organizada em `README`, prefacio, agradecimentos, introducao e 12 capitulos em `.md`, com topicos por capitulo para estudo guiado.
+
+---
+
+## Practical Malware Analysis
+
+Michael Sikorski, Andrew Honig - No Starch Press, 2012 (ISBN 978-1-59327-290-6)
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | Use a sua copia legal da edicao No Starch (o ficheiro PDF **nao** esta neste repositorio publico). |
+| Traducao PT-BR em Markdown | [`practicalmalwareanalysis/md-pt-br/`](./practicalmalwareanalysis/md-pt-br/) |
+
+> Guia pratico de analise de malware (engenharia reversa basica e avancada, laboratorios no livro oficial). A pasta `md-pt-br/` segue o modelo dos outros titulos deste repositorio: README indice por capitulo, arquivos `capitulo-*.md`, appendices texto e Appendix C apenas orientacao por direitos editoriais. O PDF oficial fica fora do Git (ver `practicalmalwareanalysis/.gitignore`).
+
