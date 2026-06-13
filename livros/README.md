@@ -56,6 +56,45 @@ Nick Cano - No Starch Press, 2016 (ISBN 978-1-59327-669-0)
 
 ---
 
+## C++ Memory Management
+
+Patrice Roy - Packt Publishing, 2025 (ISBN 978-1-80512-980-6)
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`cpp-memory-management/pdf/`](./cpp-memory-management/pdf/) |
+| Traducao PT-BR em Markdown | [`cpp-memory-management/md-pt-br/`](./cpp-memory-management/md-pt-br/) |
+
+> Traducao completa em PT-BR dos 15 capitulos e de um Anexo. Cobre o modelo de objetos de C++, RAII, smart pointers, operadores de alocacao, detectores de vazamentos, mecanismos atipicos de alocacao, arenas, reclamacao diferida, containers genericos com gerenciamento explicito, implicito e com alocadores, e questoes contemporaneas (C++23/C++26).
+
+---
+
+## C++ Programmer's Mindset
+
+Sam Morley - Packt Publishing, 2025 (ISBN 978-1-83588-842-1)
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`cpp-programmers-mindset/pdf/`](./cpp-programmers-mindset/pdf/) |
+| Traducao PT-BR em Markdown | [`cpp-programmers-mindset/md-pt-br/`](./cpp-programmers-mindset/md-pt-br/) |
+
+> Traducao em andamento.
+
+---
+
+## Software Architecture with C++ - 2a Edicao
+
+Adrian Ostrowski, Piotr Gaczkowski, Dmitry Gavrilin - Packt Publishing, 2025 (ISBN 978-1-80324-301-6)
+
+| Versao | Link |
+|--------|------|
+| PDF (ingles) | [`software-architecture-with-cpp/pdf/`](./software-architecture-with-cpp/pdf/) |
+| Traducao PT-BR em Markdown | [`software-architecture-with-cpp/md-pt-br/`](./software-architecture-with-cpp/md-pt-br/) |
+
+> Traducao em andamento.
+
+---
+
 ## Practical Malware Analysis
 
 Michael Sikorski, Andrew Honig - No Starch Press, 2012 (ISBN 978-1-59327-290-6)
